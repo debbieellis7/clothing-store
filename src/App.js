@@ -1,12 +1,11 @@
 import React from 'react'
+import Home from './components/Pages/Home/Home'
 import './App.css'
-
-import HomePage from './homepage.component'
 
 function App() {
   return (
     <div>
-      <HomePage />
+      <Home />
     </div>
   )
 }
