@@ -6,7 +6,7 @@ import Shop from './components/Pages/Shop/Shop'
 import SignInAndSignUp from './components/Pages/SignInAndSignUp/SignInAndSignUp'
 import Header from './components/Header/Header'
 import { auth, createUserProfileDocument } from './firebase/utils'
-import { setCurrentUser } from './redux/user/userActions'
+import { setCurrentUser } from './redux/actions/user'
 import './App.css'
 
 class App extends React.Component {
